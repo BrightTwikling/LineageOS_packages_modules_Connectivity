@@ -19,6 +19,7 @@ package {
 
 cc_library_static {
     name: "libip_checksum",
+    recovery_available: true,
 
     srcs: [
         "checksum.c",
